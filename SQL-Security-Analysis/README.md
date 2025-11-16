@@ -80,8 +80,8 @@ WHERE login_date = '2022-05-08'
 
 **Query Results:**
 
-![Investigating Login Attempts on Specific Dates1](Screenshot%202025-11-16%160824.png)
-![Investigating Login Attempts on Specific Dates2](Screenshot%202025-11-16%160832.png)
+![Login attempts on specific dates 1](Screenshot%202025-11-16%20160824.png)
+![Login attempts on specific dates 2](Screenshot%202025-11-16%20160832.png)
 
 ---
 
@@ -106,8 +106,8 @@ WHERE NOT country LIKE 'MEX%';
 
 **Query Results:**
 
-![Identifying Login Attempts Outside Mexico1](Screenshot%2025-11-16%160856.png)
-![Identifying Login Attempts Outside Mexico2](Screenshot%2025-11-16%160904.png)
+![Login attempts outside Mexico 1](Screenshot%202025-11-16%20160856.png)
+![Login attempts outside Mexico 2](Screenshot%202025-11-16%20160904.png)
 
 ---
 
@@ -133,7 +133,7 @@ WHERE department = 'Marketing'
 
 **Query Results:**
 
-![Locating Marketing Employees in East Building](Screenshot%2025-11-16%160932.png)
+![Marketing employees in East building](Screenshot%202025-11-16%20160932.png)
 
 ---
 
@@ -159,7 +159,7 @@ WHERE department = 'Finance'
 
 **Query Results:**
 
-![Compiling Finance and Sales Employees](Screenshot%2025-11-16%160955.png)
+![Finance and Sales employees](Screenshot%202025-11-16%20160955.png)
 
 
 ---
@@ -185,8 +185,8 @@ WHERE NOT department = 'Information Technology';
 
 **Query Results:**
 
-![Finding All Employees Outside IT1](Screenshot%2025-11-16%161018.png)
-![Finding All Employees Outside IT2](Screenshot%2025-11-16%161024.png)
+![Employees outside IT 1](Screenshot%202025-11-16%20161018.png)
+![Employees outside IT 2](Screenshot%202025-11-16%20161024.png)
 
 ---
 
