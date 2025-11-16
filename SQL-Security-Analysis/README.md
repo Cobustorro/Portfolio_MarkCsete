@@ -53,6 +53,7 @@ WHERE login_time > '18:00'
 **What I Found:** 19 failed login attempts occurred after hours.
 
 **Query Results:**
+
 ![After-hours failed login attempts](Screenshot%202025-11-16%20160756.png)
 
 ---
@@ -78,6 +79,7 @@ WHERE login_date = '2022-05-08'
 **What I Found:** 75 login attempts occurred across both days.
 
 **Query Results:**
+
 ![Investigating Login Attempts on Specific Dates1](Screenshot%2025-11-16%160824.png)
 ![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160832.png)
 
@@ -103,8 +105,9 @@ WHERE NOT country LIKE 'MEX%';
 **What I Found:** 144 login attempts originated outside Mexico.
 
 **Query Results:**
-![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160856.png)
-![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160904.png)
+
+![Identifying Login Attempts Outside Mexico1](Screenshot%2025-11-16%160856.png)
+![Identifying Login Attempts Outside Mexico2](Screenshot%2025-11-16%160904.png)
 
 ---
 
@@ -129,7 +132,8 @@ WHERE department = 'Marketing'
 **What I Found:** 7 employees met the criteria, starting with elarson.
 
 **Query Results:**
-![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160932.png)
+
+![Locating Marketing Employees in East Building](Screenshot%2025-11-16%160932.png)
 
 ---
 
@@ -154,7 +158,8 @@ WHERE department = 'Finance'
 **What I Found:** Multiple employees from both departments, including lrodriqu.
 
 **Query Results:**
-![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160955.png)
+
+![Compiling Finance and Sales Employees](Screenshot%2025-11-16%160955.png)
 
 
 ---
@@ -179,8 +184,9 @@ WHERE NOT department = 'Information Technology';
 **What I Found:** 161 employees outside the IT department needed updates.
 
 **Query Results:**
-![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%161018.png)
-![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%161024.png)
+
+![Finding All Employees Outside IT1](Screenshot%2025-11-16%161018.png)
+![Finding All Employees Outside IT2](Screenshot%2025-11-16%161024.png)
 
 ---
 
