@@ -52,6 +52,9 @@ WHERE login_time > '18:00'
 
 **What I Found:** 19 failed login attempts occurred after hours.
 
+**Query Results:**
+![After-hours failed login attempts](Screenshot%202025-11-16%20160756.png)
+
 ---
 
 ### Step 2: Investigating Login Attempts on Specific Dates
@@ -74,6 +77,10 @@ WHERE login_date = '2022-05-08'
 
 **What I Found:** 75 login attempts occurred across both days.
 
+**Query Results:**
+![Investigating Login Attempts on Specific Dates1](Screenshot%2025-11-16%160824.png)
+![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160832.png)
+
 ---
 
 ### Step 3: Identifying Login Attempts Outside Mexico
@@ -94,6 +101,10 @@ WHERE NOT country LIKE 'MEX%';
 - The `%` wildcard matched any trailing characters
 
 **What I Found:** 144 login attempts originated outside Mexico.
+
+**Query Results:**
+![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160856.png)
+![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160904.png)
 
 ---
 
@@ -117,6 +128,9 @@ WHERE department = 'Marketing'
 
 **What I Found:** 7 employees met the criteria, starting with elarson.
 
+**Query Results:**
+![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160932.png)
+
 ---
 
 ### Step 5: Compiling Finance and Sales Employees
@@ -139,6 +153,10 @@ WHERE department = 'Finance'
 
 **What I Found:** Multiple employees from both departments, including lrodriqu.
 
+**Query Results:**
+![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160955.png)
+
+
 ---
 
 ### Step 6: Finding All Employees Outside IT
@@ -159,6 +177,10 @@ WHERE NOT department = 'Information Technology';
 - Helpful for targeted patching and compliance tasks
 
 **What I Found:** 161 employees outside the IT department needed updates.
+
+**Query Results:**
+![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%161018.png)
+![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%161024.png)
 
 ---
 
