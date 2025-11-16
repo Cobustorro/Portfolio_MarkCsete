@@ -80,8 +80,8 @@ WHERE login_date = '2022-05-08'
 
 **Query Results:**
 
-![Investigating Login Attempts on Specific Dates1](Screenshot%2025-11-16%160824.png)
-![Investigating Login Attempts on Specific Dates2](Screenshot%2025-11-16%160832.png)
+![Investigating Login Attempts on Specific Dates1](Screenshot%202025-11-16%160824.png)
+![Investigating Login Attempts on Specific Dates2](Screenshot%202025-11-16%160832.png)
 
 ---
 
